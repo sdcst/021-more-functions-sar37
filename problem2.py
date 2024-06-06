@@ -21,7 +21,10 @@ assert triangle(1,1,4) == 0
 (2 points)
 """
 
-def triangle():
+def triangle(a,b,c):
+    H = max(a,b,c)
+    A = min(a,b,c)
+    
     return
 
 def tests():
